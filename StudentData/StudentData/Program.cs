@@ -13,9 +13,10 @@ namespace StudentData
         
         static void Main(string[] args)
         {
-            Console.WriteLine("First Name: Peter \n");
-            Console.WriteLine("Last Name: Smith\n");
-            Console.WriteLine("School Name: Free University\n");
+            Console.WriteLine("\tFirst Name: Peter ");
+            Console.WriteLine("\tLast Name: Smith");
+            Console.WriteLine("\tSchool Name: Free University");
+            Console.WriteLine("\tDate: 10/13/2017");
             Console.ReadKey();
         }
     }
